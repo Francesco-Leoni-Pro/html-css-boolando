@@ -23,7 +23,7 @@ text {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  padding: 10px;
+  padding: 20px 100px;
   justify-content: center;
 }
 
@@ -85,4 +85,8 @@ text {
 
 h2 {
   font-size: 18px;
+}
+
+.col button:hover {
+    color: red;
 }
