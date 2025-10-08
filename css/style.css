@@ -17,6 +17,11 @@ text {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+ul {
+    list-style: none;
+}
+
+
 /* UTILITIES */
 
 .container {
@@ -107,4 +112,89 @@ h2 {
 
 .img-wrapper:hover .img-second{
   opacity: 1;
+}
+
+/* HEADER */
+
+.header {
+  background-color: orange;
+  color: white;
+  padding: 15px 0;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.icon ul {
+  display: flex;
+  gap: 5px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+.icon i {
+  color: white;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-left, .footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-left ul, .footer-right ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.footer-left ul li a, .footer-right ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-right ul.social {
+  flex-direction: row;
 }
