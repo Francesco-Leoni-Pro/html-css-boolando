@@ -9,3 +9,17 @@ box-sizing: border-box;
 img {
     width: 100%;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.col {
+  flex: 1 1 calc(33.33% - 10px); /* larghezza con margine considerato */
+  border: 1px solid black;
+  height: auto;
+}
